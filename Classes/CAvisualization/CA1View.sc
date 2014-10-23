@@ -127,8 +127,10 @@ CA1View {
 		historyMatrix.putRow(i,line);
 		birthsLine=argBirthsLine;
 		
+		{
 		hssU.refresh;
 		ssU.refresh;
+		}.defer;
 	}	
 	
 	updateCount {
