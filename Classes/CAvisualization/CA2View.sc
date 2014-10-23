@@ -88,7 +88,9 @@ CA2View {
 	update {|argMatrix,argBirthsMatrix|
 		matrix=argMatrix;
 		birthsMatrix=argBirthsMatrix;	
+		{
 		ssU.refresh;
+		}.defer;
 	}	
 
 	
